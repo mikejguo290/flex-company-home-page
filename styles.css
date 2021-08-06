@@ -1,17 +1,30 @@
 nav {
     /* nav contains logo and navigation links in ul */
     width: 100%;
-    display: inline-flex;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     width: 80px;
+    height: auto;
+    margin-left:15px;
 }
 ul {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+    margin-right:20px;
 }
+ul li {
+    margin: 10px;
+    padding: 10px;
+    border:1px red solid;
+}
+
 main {
     display: flex;
     flex-direction: column;
