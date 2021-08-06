@@ -79,12 +79,13 @@ main {
     width: 100%;
     margin: auto;
     text-align: center;
-    margin: 1.2rem 0;
+    margin-top: 1.2rem
 }
 
 .sights {
     width: 80%;
     text-align: center;
+    margin-top: 1.2rem;
 }
 
 .attractions{
@@ -95,4 +96,8 @@ main {
 
 .attractions figure{
     flex:1 1 33%;
+}
+
+.team {
+    margin-top: 1.2rem;
 }
