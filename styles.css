@@ -2,31 +2,45 @@
     border: 1px red solid;
 }
 
-nav {
-    /* nav contains logo and navigation links in ul */
+header {
+    /* nav  logo and navigation links in ul */
     width: 100%;
+    margin: auto;
+    
+} 
+
+.name {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
 }
 
+
 .logo {
-    width: 80px;
+    width: 50px;
     height: auto;
     margin-left:15px;
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     list-style: none;
 
     margin-right:20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
+
 ul li {
-    margin: 10px;
+   
     padding: 10px;
-    border:1px red solid;
 }
 
 main {
@@ -43,4 +57,13 @@ main {
     background-image: url('./resources/images/richmondJumbotron.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron h2 {
+    color: whitesmoke;
+    font-size: 2.25rem;
+
 }
