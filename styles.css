@@ -92,6 +92,7 @@ main {
     width: 100%;
     display:flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     
 }
 .figure_container {
@@ -99,11 +100,12 @@ main {
     encompass figure inside another div, make that into a flex container 
     and copy figure's min-height and flex properties to give div same dimensions.
     */
-    flex:1 1 250px;
+    flex:0 1 250px; /* sadly with so many images of different sizes. I cannot allow images to grow with extra space. */
     min-height: 236px;
     display:flex;
-    flex-wrap:wrap;
-    justify-content:center; 
+    
+    flex-direction:column;
+    
 
 }
 
