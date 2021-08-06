@@ -95,7 +95,17 @@ main {
 }
 
 .attractions figure{
-    flex:1 1 33%;
+    flex:1 1 250px;
+}
+
+.img_container {
+    height: 100%;
+}
+.attractions figure img{
+    height: 100%; /* images used were not tall enough. so have to ensure img height is 100% of container. */
+    width:auto;
+    overflow:hidden;
+    object-fit: cover; /*The replaced content (img here) is sized to maintain its aspect ratio while filling the element’s entire content box. If the object's aspect ratio does not match the aspect ratio of its box, then the object will be clipped to fit.*/
 }
 
 .team {
