@@ -73,3 +73,18 @@ main {
     text-align: center;
     margin: 1.2rem 0;
 }
+
+.sights {
+    width: 80%;
+    text-align: center;
+}
+
+.attractions{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap
+}
+
+.attractions figure{
+    flex:1 1 33%;
+}
