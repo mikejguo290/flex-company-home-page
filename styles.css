@@ -91,19 +91,21 @@ main {
 .attractions{
     width: 100%;
     display:flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    
 }
 
 .attractions figure{
-    flex:1 1 250px;
+    flex-basis: 1 1 250px;
+    min-height: 236px;
 }
 
-.img_container {
-    height: 100%;
+.attractions figure figcaption{
+    height: 10%;
 }
 .attractions figure img{
-    height: 100%; /* images used were not tall enough. so have to ensure img height is 100% of container. */
-    width:auto;
+    height: 90%; /* images used were not tall enough. so have to ensure img height is 100% of container. */
+    width:auto; /*setting height 90% but width auto means widths isn't always wide enough for container!*/
     overflow:hidden;
     object-fit: cover; /*The replaced content (img here) is sized to maintain its aspect ratio while filling the element’s entire content box. If the object's aspect ratio does not match the aspect ratio of its box, then the object will be clipped to fit.*/
 }
