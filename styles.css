@@ -94,17 +94,27 @@ main {
     flex-wrap: wrap;
     
 }
+.figure_container {
+    /*
+    encompass figure inside another div, make that into a flex container 
+    and copy figure's min-height and flex properties to give div same dimensions.
+    */
+    flex:1 1 250px;
+    min-height: 236px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center; 
+
+}
 
 .attractions figure{
-    flex-basis: 1 1 250px;
+    flex: 1 1 250px;
     min-height: 236px;
 }
 
-.attractions figure figcaption{
-    height: 10%;
-}
+
 .attractions figure img{
-    height: 90%; /* images used were not tall enough. so have to ensure img height is 100% of container. */
+    height: 100%; /* images used were not tall enough. so have to ensure img height is 100% of container. */
     width:auto; /*setting height 90% but width auto means widths isn't always wide enough for container!*/
     overflow:hidden;
     object-fit: cover; /*The replaced content (img here) is sized to maintain its aspect ratio while filling the element’s entire content box. If the object's aspect ratio does not match the aspect ratio of its box, then the object will be clipped to fit.*/
