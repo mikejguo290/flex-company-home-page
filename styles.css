@@ -100,12 +100,12 @@ main {
     encompass figure inside another div, make that into a flex container 
     and copy figure's min-height and flex properties to give div same dimensions.
     */
-    flex:0 1 250px; /* sadly with so many images of different sizes. I cannot allow images to grow with extra space. */
+    flex:1 1 250px; /* with so many images of different sizes it's hard to allow images to grow with extra space. */
     min-height: 236px;
     display:flex;
     
     flex-direction:column;
-    
+    margin: 0px 5px 10px;
 
 }
 
@@ -117,7 +117,7 @@ main {
 
 .attractions figure img{
     height: 100%; /* images used were not tall enough. so have to ensure img height is 100% of container. */
-    width:auto; /*setting height 90% but width auto means widths isn't always wide enough for container!*/
+    width: 100%; /* with img height always having to be 100%, image width:auto doesn't increase as much as it should to fit expanding container!*/
     overflow:hidden;
     object-fit: cover; /*The replaced content (img here) is sized to maintain its aspect ratio while filling the element’s entire content box. If the object's aspect ratio does not match the aspect ratio of its box, then the object will be clipped to fit.*/
 }
