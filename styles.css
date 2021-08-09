@@ -94,36 +94,22 @@ main {
 
 .attractions{
     width: 100%;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     
 }
-.figure_container {
-    /*
-    encompass figure inside another div, make that into a flex container 
-    and copy figure's min-height and flex properties to give div same dimensions.
-    */
-    flex:1 1 250px; /* with so many images of different sizes it's hard to allow images to grow with extra space. */
-    min-height: 236px;
-    display:flex;
-    
-    flex-direction:column;
-    margin: 0px 5px 10px;
-
-}
 
 .attractions figure{
     flex: 1 1 250px;
-    min-height: 236px;
+    margin: 0px 5px 10px;
 }
 
 
 .attractions figure img{
-    height: 100%; /* images used were not tall enough. so have to ensure img height is 100% of container. */
-    width: 100%; /* with img height always having to be 100%, image width:auto doesn't increase as much as it should to fit expanding container!*/
-    overflow:hidden;
-    object-fit: cover; /*The replaced content (img here) is sized to maintain its aspect ratio while filling the element’s entire content box. If the object's aspect ratio does not match the aspect ratio of its box, then the object will be clipped to fit.*/
+    height: auto; 
+    max-width: 100%; /* if img height always having to be 100%, image width:auto doesn't increase as much as it should to fit expanding container!*/
+    overflow: hidden;
 }
 
 .team {
