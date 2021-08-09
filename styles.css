@@ -123,5 +123,16 @@ main {
 .members {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-evenly;
+}
+
+.members figure {
+    flex: 1 1 250px; /* flex item property */
+    margin: 10px;
+    max-width: 250px ;
+
+    display: flex; /* flex container property! it is both item and container. */
+    flex-direction:column;
+    align-items: center;
 }
