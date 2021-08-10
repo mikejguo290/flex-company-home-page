@@ -1,5 +1,4 @@
 *{
-    
     font-family: Poppins;
 }
 
@@ -102,7 +101,7 @@ main {
 
 .sights h2 {
     margin-bottom: 0.3rem;
-    background-color:gainsboro;
+    background-color: darkseagreen;
 }
 
 .attractions{
@@ -110,6 +109,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: whitesmoke;
     
 }
 
