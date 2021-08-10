@@ -45,8 +45,12 @@ ul {
 }
 
 ul li {
-   
     padding: 10px;
+    font-weight: bold;
+}
+
+ul li a {
+    text-decoration:none;
 }
 
 body{
