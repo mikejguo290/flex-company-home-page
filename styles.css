@@ -100,7 +100,6 @@ main {
 }
 
 .sights h2 {
-    margin-bottom: 0.3rem;
     background-color: darkseagreen;
 }
 
@@ -109,13 +108,13 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: whitesmoke;
+    background-color: papayawhip;
     
 }
 
 .attractions figure{
     flex: 1 1 30%;
-    margin: 0px 5px 10px;
+    margin: 10px 5px 10px;
     max-width: 480px;
     height: auto;
 }
