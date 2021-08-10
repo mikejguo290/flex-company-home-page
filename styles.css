@@ -101,8 +101,10 @@ main {
 }
 
 .attractions figure{
-    flex: 1 1 250px;
+    flex: 1 1 30%;
     margin: 0px 5px 10px;
+    max-width: 480px;
+    height: auto;
 }
 
 
