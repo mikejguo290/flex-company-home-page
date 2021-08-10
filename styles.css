@@ -153,3 +153,8 @@ main {
     width: 100%;
     text-align: center;
 }
+
+footer {
+    margin-top: 1.2rem;
+    text-align: center;
+}
