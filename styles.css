@@ -134,6 +134,11 @@ main {
     align-items: center;
 }
 
+.team h2{
+    width: 100%;
+    background-color:lavender;
+    text-align: center;
+}
 
 .members {
     width: 100%;
