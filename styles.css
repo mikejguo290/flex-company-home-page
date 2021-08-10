@@ -1,5 +1,6 @@
 *{
     font-family: Poppins;
+    color: #272b2e;
 }
 
 header {
@@ -108,8 +109,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: papayawhip;
-    
+    background-color: whitesmoke;
 }
 
 .attractions figure{
@@ -145,6 +145,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
+    background-color: lavenderblush;
 }
 
 .members figure {
@@ -166,5 +167,5 @@ main {
 footer {
     margin-top: 2rem;
     text-align: center;
-    background-color: lavenderblush;
+    background-color: lightsalmon;
 }
