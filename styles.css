@@ -57,10 +57,11 @@ main {
 
 .jumbotron {
     width: 100%;
-    height: 400px; /* 400px will not show family or river bank in dark. but looks consistent. */
-    background-image: url('./resources/images/locations/richmondJumbotron.jpg');
+    height: 415px; /* 400px will not show family or river bank in dark. but looks consistent. */
+    background-image: url('./resources/images/locations/richmondJumbotron_halved.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
