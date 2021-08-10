@@ -90,13 +90,13 @@ main {
     width: 100%;
     margin: auto;
     text-align: center;
-    margin-top: 1.2rem
+    margin-top: 2rem;
 }
 
 .sights {
     width: 90%;
     text-align: center;
-    margin-top: 1.2rem;
+    margin-top: 2rem;
 }
 
 .sights h2 {
@@ -127,7 +127,7 @@ main {
 }
 
 .team {
-    margin-top: 1.2rem;
+    margin-top: 2rem;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -164,7 +164,7 @@ main {
 }
 
 footer {
-    margin-top: 1.2rem;
+    margin-top: 2rem;
     text-align: center;
     background-color: lavenderblush;
 }
