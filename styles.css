@@ -234,125 +234,29 @@ footer {
 }
 
 @media only screen and (max-width: 540px){
+    .jumbotron h2{
+        font-size:1.2em;
+    }
     .team {
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 480px){
+
+    .jumbotron h2{
+        font-size:1em;
+    }
+
     .attractions figure{
         flex: 1 1 100%; 
     }
 }
 
-@media only screen and (max-width: 420px){
-
-    ul {
-        width:100%;
-    }
-
-    main {
-        width: 100%;
-    }
-
-    .logo{
-        display: none;
-    }
-
-    .name {
-        text-align: center;
-
-        /* to prevent heading from taking up almost whole width at around 340px. */
-    
-        margin-left: 10px;
-        margin-right: 10px;
-   
-    }
-    .jumbotron {
-        --jumbotron-width: 100vw;
-    }
-
-    .jumbotron h2{
-        font-size:1.5em;
-    }
-
-    .about {
-        /* give call out more space on either side. */
-        width: 90%;
-    }
-
-    /* make sights take up whole width and allow each figure in attraction to be 100% */
-    .sights {
-        width: 100%;
-    }
-
-    .attractions figure{
-        flex: 1 1 100%;
-    }
-
-    .team {
-        width: 100%;
-    }
-
-    .members figure {
-        flex: 0 1 250px; /* allow portraits to grow with more space, beyond 250px */
-
-    }
-
-    footer h3 {
-        font-size: 1em;
-    }
-}
-
 @media only screen and (max-width: 320px){
-
-    ul {
-        width:100%;
-    }
-
-    main {
-        width: 100%;
-        min-width: 320px;
-    }
-
-    .logo{
-        display: none;
-    }
-
-    .name {
-        text-align: center;
-    }
-
-    .jumbotron {
-        --jumbotron-width: 100vw;
-    }
-
-    .jumbotron h2{
-        font-size:1.5em;
-    }
-
-    .about {
-        /* give call out more space on either side. */
-        width: 90%;
-    }
-    /* make sights take up whole width and allow each figure in attraction to be 100% */
-    .sights {
-        width: 100%;
-    }
-
-    .attractions figure{
-        flex: 1 1 100%;
-    }
-
-    .team {
-        width: 100%;
-    }
-
+    /* so the consequence of desk top first is mobile would not get all its css together in one place, 
+    just a line here and there at breakpoints. */
     .members figure {
         flex: 1 1 250px; /* allow portraits to grow with more space, beyond 250px */
-    }
-
-    footer h3 {
-        font-size: 1em;
     }
 }
