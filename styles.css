@@ -174,17 +174,71 @@ footer {
     padding-bottom: 1em;
 }
 
+@media only screen and (max-width: 420px){
+
+    ul {
+        width:100%;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .name {
+        text-align: center;
+
+        /* to prevent heading from taking up almost whole width at around 340px. */
+    
+        margin-left: 10px;
+        margin-right: 10px;
+   
+    }
+    .jumbotron {
+        --jumbotron-width: 100vw;
+    }
+
+    .jumbotron h2{
+        font-size:1.5em;
+    }
+    /* make sights take up whole width and allow each figure in attraction to be 100% */
+    .sights {
+        width: 100%;
+    }
+
+    .attractions figure{
+        flex: 1 1 100%;
+    }
+
+    .team {
+        width: 100%;
+    }
+
+    .members figure {
+        flex: 0 1 250px; /* allow portraits to grow with more space, beyond 250px */
+
+    }
+
+    footer h3 {
+        font-size: 1em;
+    }
+}
+
 @media only screen and (max-width: 320px){
 
-   ul {
-       width:100%;
-   }
+    ul {
+        width:100%;
+    }
 
-   main {
-       width: 100%;
-   }
+    main {
+        width: 100%;
+        min-width: 320px;
+    }
 
-   .logo{
+    .logo{
         display: none;
     }
 
@@ -196,16 +250,16 @@ footer {
         --jumbotron-width: 100vw;
     }
 
-   .jumbotron h2{
+    .jumbotron h2{
         font-size:1.5em;
-   }
-   /* make sights take up whole width and allow each figure in attraction to be 100% */
-   .sights {
-    width: 100%;
-   }
+    }
+    /* make sights take up whole width and allow each figure in attraction to be 100% */
+    .sights {
+        width: 100%;
+    }
 
-   .attractions figure{
-    flex: 1 1 100%;
+    .attractions figure{
+        flex: 1 1 100%;
     }
 
     .team {
