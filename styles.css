@@ -174,7 +174,7 @@ footer {
     padding-bottom: 1em;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 780px){
 
     ul {
         width:100%;
@@ -220,7 +220,7 @@ footer {
     }
 
     .team {
-        width: 100%;
+        width: 80%;
     }
 
     .members figure {
@@ -230,6 +230,18 @@ footer {
 
     footer h3 {
         font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .team {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .attractions figure{
+        flex: 1 1 100%; 
     }
 }
 
