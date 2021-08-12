@@ -35,8 +35,8 @@ ul {
     list-style: none;
     padding-inline-start: 0px;
     padding-inline-end: 0px;
-
-    margin-right:20px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
 
@@ -84,7 +84,7 @@ main {
 
 .jumbotron h2 {
     color: whitesmoke;
-    font-size: 2.25rem;
+    font-size: 2.25em;
     background-color:darkolivegreen;
     opacity:0.8;
     width: 100%;
@@ -153,8 +153,7 @@ main {
 }
 
 .members figure {
-    flex: 1 1 250px; /* flex item property */
-    max-width: 250px;
+    flex: 0 1 250px; /* flex item property */
     height: auto;
     margin: 10px;
 
@@ -172,4 +171,52 @@ footer {
     margin-top: 2rem;
     text-align: center;
     background-color: moccasin;
+    padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 320px){
+
+   ul {
+       width:100%;
+   }
+
+   main {
+       width: 100%;
+   }
+
+   .logo{
+        display: none;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    .jumbotron {
+        --jumbotron-width: 100vw;
+    }
+
+   .jumbotron h2{
+        font-size:1.5em;
+   }
+   /* make sights take up whole width and allow each figure in attraction to be 100% */
+   .sights {
+    width: 100%;
+   }
+
+   .attractions figure{
+    flex: 1 1 100%;
+    }
+
+    .team {
+        width: 100%;
+    }
+
+    .members figure {
+        flex: 1 1 250px; /* allow portraits to grow with more space, beyond 250px */
+    }
+
+    footer h3 {
+        font-size: 1em;
+    }
 }
