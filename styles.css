@@ -257,6 +257,7 @@ footer {
     .jumbotron{ 
         display:none;
     }
+}
 
 @media only screen and (max-width: 320px){
     /* so the consequence of desk top first is mobile would not get all its css together in one place, 
