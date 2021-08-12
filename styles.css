@@ -204,6 +204,12 @@ footer {
     .jumbotron h2{
         font-size:1.5em;
     }
+
+    .about {
+        /* give call out more space on either side. */
+        width: 90%;
+    }
+
     /* make sights take up whole width and allow each figure in attraction to be 100% */
     .sights {
         width: 100%;
@@ -252,6 +258,11 @@ footer {
 
     .jumbotron h2{
         font-size:1.5em;
+    }
+
+    .about {
+        /* give call out more space on either side. */
+        width: 90%;
     }
     /* make sights take up whole width and allow each figure in attraction to be 100% */
     .sights {
